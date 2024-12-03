@@ -36,5 +36,4 @@ if __name__ == "__main__":
         report = [int(v) for v in line.split()]
         if is_safe_report(report):
             safe_reports += 1
-        else:
     print(safe_reports)
